@@ -5,33 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christina Brown's Portfolio</title>
-    <link rel="stylesheet" href="./newStyle.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 </head>
 <body>
     <header>
-        <nav class="float-left">
-            <ul>
-                <li>
-                    ABOUT
-                </li>
-                <li>
-                    WORK
-                </li>
-                <li>
-                    CONTACT
-                </li>
-            </ul>
-        </nav>
+        <nav>
+            <div class="nav-wrapper purple">
+              <a href="#!" class="brand-logo">cb</a>
+              <a href="#!" class="side material-icons">cb</a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html"></a>ABOUT</li>
+                <li><a href="badges.html">RECENT WORK</a></li>
+                <li><a href="collapsible.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">Javascript</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
+          </ul>
+       
     </header>
     
     <main>
-        <h1>Hello! I'm Christina</h1>
-        <p>
-            I'm an aspiring full stack web developer and artist. 
-            When I'm not on my laptop working on code, I'm most likely elbow deep in art supplies!
-        </p>
-        <img class="self-img" src="./assets/pictures/aboutMePic.jfif" alt="Picture of Christina">
-    </main>
+        <div class="row">
+            <div class="col s7 push-s5">
+                <img class="self-img" src="./assets/images/ComingSoon.png" alt="Picture of Christina">
+            </div>
+            <div class="col s5 pull-s7">
+                <span class="flow-text"><h1>Hello! I'm Christina</h1></span>
+                <p>
+                    I'm an aspiring full stack web developer and artist. 
+                    When I'm not on my laptop working on code, I'm most likely elbow deep in art supplies!
+                </p>
+            </div>
+          </div> 
+     </main>
 
     <section class="recent-work">
         <h2>Here are some of my recent projects</h2>
@@ -44,7 +58,7 @@
                 slightly bigger than others
 
             </p>
-            <img src="./assets/pictures/RunBuddyScreenShoot.png" alt="">
+            <img src="./assets/images/HoriseonSS.png" alt="">
         </article>
 
         <article class="coming-soon">
@@ -52,7 +66,7 @@
             <p>
                 DESCRIPTION
             </p>
-            <img src="./assets/pictures/ComingSoon.png" alt="">
+            <img src="./assets/images/ComingSoon.png" alt="">
         </article>
         
         <article class="coming-soon">
@@ -60,7 +74,7 @@
             <p>
                 DESCRIPTION
             </p>
-            <img src="./assets/pictures/ComingSoon.png" alt="">
+            <img src="./assets/images/ComingSoon.png" alt="">
         </article>
     </section>
 
@@ -82,5 +96,6 @@
     <footer>
         <span>❤️Thanks for visiting!❤️</span>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
