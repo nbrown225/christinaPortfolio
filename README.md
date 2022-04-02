@@ -1,19 +1,33 @@
 # Portfolio Challenge
 
+  - [ABOUT THE PROJECT](#about-the-project)
+  - [SITE LINK](#site-link)
+  - [SCREENSHOT](#screenshot)
+  - [Mockup](#mockup)
+  - [USER STORY](#user-story)
+  - [REQUIREMENTS](#requirements)
+  - [RESOURCES USED](#resources-used)
+  - [HELPFUL LINKS](#helpful-links)
+  - [BONUS](#bonus)
+  - 
 ## ABOUT THE PROJECT
 This project is to create a unique and proffesional portfolio for showing coding projects. 
+
 ## SITE LINK
 [Portfolio Link](https://nbrown225.github.io/christinaPortfolio/)
+
 ## SCREENSHOT
 ![Site Screenshot](assets/images/Screenshot%20(55).png)
+
 ## Mockup
 ![Site Mockup](assets/images/Mockup.png)
-### USER STORY
+
+## USER STORY
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-### REQUIREMENTS
+## REQUIREMENTS
 *   GIVEN I need to sample a potential employee's previous work
     - WHEN I load their portfolio
         THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
