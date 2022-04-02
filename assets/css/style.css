@@ -22,12 +22,22 @@ body {
 nav ul li a{
     color: mediumspringgreen;
 }
+#about-container {
+    height: 70vh;
+    width: 50vw;
+    margin-top: 4%;
+    margin-bottom: 4.82%;
+}
 
-.self-img {
-    height: 25vw;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border: 12px black;
+#about-img {
+    height: 350px;
+    width: 275px;
+    border: 12px solid rgb(98, 148, 125);
+    margin-left: 65px;
+}
+
+#about-section {
+    margin-top: 20%;
 }
 
 #project-container {
