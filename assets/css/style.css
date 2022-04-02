@@ -2,7 +2,7 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-    background-color: rgba(66, 73, 67, 0.616);    
+    background-color: rgba(55, 71, 79, 0.616);    
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: mediumspringgreen;
@@ -29,6 +29,12 @@ nav ul li a{
     margin-bottom: 2px;
     border: 12px black;
 }
+
+#project-container {
+    height: 80vh;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 #horiseon-img {
     height: 175px;
     width: 195px;
@@ -37,7 +43,7 @@ nav ul li a{
     border: solid black;  
 }
 #demo-img {
-    height: 150px;
+    height: 100px;
     margin: 10% auto 10% auto;
     border: 2px dotted black;
 }
@@ -49,17 +55,28 @@ nav ul li a{
 }
 
 #contact-title {
-    margin: 10px auto 10px auto;
+    margin: 20px auto 10px auto;
 }
 
 #contact-article {
-    margin-top: 20px;
+    margin-top: 55px;
+}
+
+#contact-link {
+    margin-top: 35px;
+    font-size: large;
+    font-weight: bold;
+    list-style: none;
+}
+#teal {
+    background-color: #4db6ac;
 }
 
 footer{
     flex: 0 auto;
     height: 35px;
     margin-bottom: 0;
-    
+    font-size: 12pt;
+    font-weight: bold;
 }
 
