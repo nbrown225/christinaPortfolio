@@ -25,8 +25,21 @@ nav ul li a{
 
 .self-img {
     height: 25vw;
-    margin: 10% auto 10% auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
     border: 12px black;
+}
+#horiseon-img {
+    height: 175px;
+    width: 195px;
+    margin-top: 2px;
+    margin-bottom: 2px;  
+    border: solid black;  
+}
+#demo-img {
+    height: 150px;
+    margin: 10% auto 10% auto;
+    border: 2px dotted black;
 }
 
 #contact-me {
